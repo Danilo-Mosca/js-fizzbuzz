@@ -42,16 +42,21 @@ console.log("Soluzione alternativa con lo 'switch':");
 
 for (let i = 1; i <= numeri; i++) {
 
+    // Inserisco true così l'espressione sarà sempre true e permetterò al programma di eseguire i controlli sui vari case
     switch (true) {
+        // Controllo se multiplo di 3 e 5 
         case ((i % 3 === 0) && (i % 5 === 0)):
             console.log("FizzBuzz");
             break;
+        // Controllo se multiplo di 3
         case (i % 3 === 0):
             console.log("Fizz");
             break;
+        // Controllo se multiplo di 5 
         case (i % 5 === 0):
             console.log("Buzz");
             break;
+        // Altrimenti stampo il numero
         default:
             console.log(i);
     }
