@@ -9,4 +9,4 @@ ma per i multipli di 3 stampi “Fizz” al posto del numero e per i multipli di
 Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz. */
 
 //creo e dichiaro le variabili
-numeri = 100;
+const numeri = 100;
